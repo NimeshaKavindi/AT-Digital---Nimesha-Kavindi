@@ -14,11 +14,11 @@ function Footer() {
                         <img src ={logo} className="logo"/>
                     </div><br/>
                     <div className="text">
-                        <p>
-                    Your goal is our target. Not anything in between. We use<br/>
-                    online marketing platforms and tools to achieve single<br/>
-                    objective - your business results.
-                    </p>
+                        <p className="content">
+                            Your goal is our target. Not anything in between. We use<br/>
+                            online marketing platforms and tools to achieve single<br/>
+                            objective - your business results.
+                       </p>
                     </div>
                 
                 </div>
