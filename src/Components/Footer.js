@@ -25,8 +25,19 @@ function Footer() {
                 <div className="col-6">
 
                     <div className="row technologies-service">
-                        <div className="col-4">Our Technologies</div>
-                        <div className="col-4">Our Service</div>
+                        <div className="col-4">
+                            <div><p className="technologies-title">Our Technologies</p></div>
+                            <div><p className="technologies-list">React Js</p></div>
+                            <div><p className="technologies-list">Gatsby</p></div>
+                            <div><p className="technologies-list">NextJS</p></div>
+                            <div><p className="technologies-list">NodeJS</p></div>
+                            <div><p className="technologies-list">GraphQL</p></div>
+                            <div><p className="technologies-list">Laravel</p></div>
+
+                            
+                        </div>
+
+                        <div className="col-4"></div>
                     </div>
                     
                 </div>
