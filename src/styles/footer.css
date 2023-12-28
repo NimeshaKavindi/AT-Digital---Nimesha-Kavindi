@@ -6,10 +6,15 @@
     height: 324px;
     padding: 40px 80px 20px 80px;
     gap: 40px;
-    background: #6B3CC9;
+    background-color: #6B3CC9;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;
+
+}
+
+.logo{
+    width:238.89px; 
+    height: 36.11px;
 }
