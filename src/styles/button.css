@@ -1,9 +1,9 @@
 .custom-button {
     width: 214px;
     height: 38px;
-    padding: 12px 20px; /* Individual values for padding */
+    padding: 12px 20px; 
     border-radius: 4px;
-    gap: 8px; /* Not a valid property for button element, used in flex containers */
+    gap: 8px; 
     background-color: #F28D35;
     color: #FFFFFF;
     border: none;
