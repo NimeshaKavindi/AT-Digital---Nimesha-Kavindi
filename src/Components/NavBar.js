@@ -19,10 +19,10 @@ const NavBar = () => {
               <a className="nav-link" href="#services">SERVICES</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">CONTACT US</a>
+              <a className="nav-link" href="#contact">ABOUT US</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">ABOUT US</a>
+              <a className="nav-link" href="#about">CONTACT US</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#careers">CAREERS</a>

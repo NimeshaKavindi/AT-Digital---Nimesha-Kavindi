@@ -14,3 +14,18 @@
     height: 36.11px;
 }
 
+.nav-item a {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  width: 68px;
+  height: 17px;
+  margin-right: 28px; 
+  color:#FFFFFF;
+  white-space: nowrap;
+}
+
+.nav-item:last-child a {
+  margin-right: 0;
+}
