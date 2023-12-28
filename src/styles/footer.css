@@ -91,3 +91,20 @@
   .footer-bottom{
     height: 100px;
   }
+
+  .footer-line {
+    border: 1px solid #FFFFFF;
+    width: 630px;
+    margin: 16px auto; /* Center the <hr> line */
+  }
+
+  .privacy-text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px; /* Adjust margin-bottom as needed */
+  }

@@ -51,8 +51,8 @@ function Footer() {
             </div>
 
             <div className="footer-bottom">
-          <hr className="footer-line" />
-          <p className="privacy-text">Privacy</p>
+             <br/><hr className="footer-line" />
+            <div className="text"></div><p className="privacy-text">Privacy | Terms & Conditions</p>
         </div>
             
         </div>
