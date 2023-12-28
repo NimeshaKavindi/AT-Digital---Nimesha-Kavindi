@@ -1,0 +1,22 @@
+.hero-img{
+    width: 1440px;
+    height: 700px;
+    object-fit: cover; 
+    
+
+}
+
+
+.custom-box {
+    width: 630px;
+    height: fit-content;
+    min-height: 306px;
+    top: 354px;
+    left: 80px;
+    padding: 24px 40px 32px 40px;
+    gap: 20px;
+    position: absolute;
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%),
+                linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  }
+  
