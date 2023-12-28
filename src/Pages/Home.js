@@ -6,6 +6,7 @@ import Button from "../Components/Button";
 import hero from "../assests/Hero Image.png";
 import "../styles/home.css"
 import web from "../assests/web.png";
+import digital from "../assests/digital.png"
 
 function Home(){
    return(
@@ -45,6 +46,28 @@ function Home(){
 
                      </div>
 
+                    </div>
+            </div>
+            <div className="digital-section">
+                    
+                    <div className="column2">
+                     <div className="text-box">
+                        <div className="title">Digital Strategy Consulting</div><br/>
+                        <div className="text">
+                            <p>
+                            Your web and mobile Apps are pieces of the puzzle to grow your <br/>
+                            business. We use frameworks which tailor content and engagement<br/> 
+                            methods to respond to different intents shown by your potential <br/>
+                            customers who interact with your business online.
+                            </p>
+                        </div>
+                        <Button text="Learn More" style="btn_viewmore"></Button>
+
+                     </div>
+
+                    </div>
+                    <div className="digi-img">
+                        <img src={digital} alt="Web Development" />
                     </div>
             </div>
 

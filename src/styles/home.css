@@ -37,16 +37,19 @@
     margin-bottom: 20px;
   }
 
+
 .webDevelop-section {
     display: grid;
     grid-template-columns: 414px 650px;
     gap: 108px; 
     align-items: center; 
     justify-content: center; 
+    margin-left: 188px;
+    
   }
   
   .web-img img {
-    width: 100%;
+    width: 414px;
     height: 414px;
   }
   
@@ -80,4 +83,20 @@
     letter-spacing: 0em;
     text-align: left;
     color:#000000;
+  }
+
+  .digital-section{
+    display: grid;
+    grid-template-columns: 414px 650px;
+    gap: 108px; 
+    align-items: center; 
+    justify-content: center;
+    top:1351px;
+    margin-left: 188px;
+
+  }
+
+  .digi-img img {
+    width: 414px;
+    height: 414px;
   }
