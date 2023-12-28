@@ -16,7 +16,7 @@ function Home(){
                 <div className="custom-text">
                   We Crush Your<br/> Competitors, Goals, And <br/> Sales Records - Without<br/> The B.S.
                 </div> 
-                <div>
+                <div className="button-container" >
                  <Button/>                   
                 </div>
 

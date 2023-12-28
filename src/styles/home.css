@@ -18,6 +18,10 @@
     position: absolute;
     background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%),
                 linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+  display: flex;
+  flex-direction: column; /* Display children elements vertically */
+  align-items: flex-start;
   }
   
   .custom-text {
@@ -30,4 +34,6 @@
     letter-spacing: -0.02em;
     text-align: left;
     color: #FFFFFF; 
+    margin-bottom: 20px;
   }
+
