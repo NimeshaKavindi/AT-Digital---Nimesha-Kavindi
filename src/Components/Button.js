@@ -1,12 +1,12 @@
 import React from "react"
 import "../styles/button.css"
 
-function Button(){
-    return(
-    <button className="custom-button">
-      GET FREE CONSULTATION
-    </button>
+function Button({ text}) {
+    return (
+      <button className="custom-button">
+        {text}
+      </button>
     );
-}
+  }
 
 export default Button;

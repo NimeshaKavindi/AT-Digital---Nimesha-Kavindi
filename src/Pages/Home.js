@@ -21,7 +21,7 @@ function Home(){
                     We Crush Your<br/> Competitors, Goals, And <br/> Sales Records - Without<br/> The B.S.
                     </div> 
                     <div className="button-container" >
-                    <Button/>                   
+                    <Button text="GET FREE CONSULTATION" />                   
                     </div>
 
                 </div>
@@ -32,12 +32,16 @@ function Home(){
                     </div>
                     <div className="column2">
                      <div className="text-box">
-                        <div className="title">Web & Mobile App Development</div>
+                        <div className="title">Web & Mobile App Development</div><br/>
                         <div className="text">
                             <p>
-                            Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.
+                            Your web and mobile Apps are pieces of the puzzle to grow your <br/>
+                            business. We use frameworks which tailor content and engagement<br/> 
+                            methods to respond to different intents shown by your potential <br/>
+                            customers who interact with your business online.
                             </p>
                         </div>
+                        <Button text="Learn More" style="btn_viewmore"></Button>
 
                      </div>
 
