@@ -37,7 +37,14 @@ function Footer() {
                             
                         </div>
 
-                        <div className="col-4"></div>
+                        <div className="col-4">
+                            <div><p className="technologies-title">Our Services</p></div>
+                            <div><p className="technologies-list">Social media Marketing</p></div>
+                            <div><p className="technologies-list">Web & Mobile App Development</p></div>
+                            <div><p className="technologies-list">Data & Analytics</p></div>
+                            <div><p className="technologies-list">Google Marketing solutions</p></div>
+                            <div><p className="technologies-list">Search Engine Optimization</p></div>
+                        </div>
                     </div>
                     
                 </div>
