@@ -1,12 +1,16 @@
-.navbar {
+
+.custom-navbar {
     width: 1440px;
     height: 77px;
-    justify-content: space-between;
     padding: 26px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #6B3CC9;
-}
-
-.logo{
+  }
+  
+  .logo{
     width:238.89px; 
     height: 36.11px;
 }
+

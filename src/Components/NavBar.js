@@ -1,18 +1,37 @@
-import React from "react";
-import "../styles/navBar.css";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/navBar.css'; 
 import logo from "../assests/Picture1.png"
 
-function NavBar() {
-    return (
-        <nav className="navbar">
-            <div className="container-fluid">
-                <span className="navbar-brand">
-                    <img src= {logo}  className="logo"/>
-                </span>
-                
-            </div>
-        </nav>
-    );
-}
+const NavBar = () => {
+  return (
+    <nav className="navbar navbar-expand-lg custom-navbar">
+      <div className="container">
+
+        <div className="navbar-brand col-md-8 col-lg-8">
+            <img src= {logo}  className="logo"/>
+        </div>
+
+        {/* Navigation links on the right */}
+        <div className="collapse navbar-collapse col-md-4 col-lg-4" id="navbarSupportedContent">          
+          <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <a className="nav-link" href="#services">SERVICES</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">CONTACT US</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#about">ABOUT US</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#careers">CAREERS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  );
+};
 
 export default NavBar;
