@@ -49,11 +49,12 @@ function Footer() {
                     
                 </div>
             </div>
-            <div className="row">
-                <div className="col-12" >
+
+            <div className="footer-bottom">
+          <hr className="footer-line" />
+          <p className="privacy-text">Privacy</p>
+        </div>
             
-                </div>
-            </div>
         </div>
   </footer>
   );
