@@ -37,3 +37,39 @@
     margin-bottom: 20px;
   }
 
+.webDevelop-section {
+    display: grid;
+    grid-template-columns: 414px 650px;
+    gap: 108px; 
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .web-img img {
+    width: 100%;
+    height: 414px;
+  }
+  
+  
+  .column2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .text-box {
+    width: 542px;
+    height: 187px;
+  }
+
+  .title{
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: #6B3CC9;
+
+  }
+  

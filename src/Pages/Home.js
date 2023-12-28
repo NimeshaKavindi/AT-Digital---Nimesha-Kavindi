@@ -1,27 +1,51 @@
-import React from "react"
+import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
 import Button from "../Components/Button";
 import hero from "../assests/Hero Image.png";
 import "../styles/home.css"
+import web from "../assests/web.png";
 
 function Home(){
    return(
-    <div className="home-container">
+    <div>
         <NavBar/>
+        <div className="home-container">
+
             <div className="hero-section">
-               <img src ={hero} className="hero-img"/>
-            </div>
-            <div className="custom-box">
-                <div className="custom-text">
-                  We Crush Your<br/> Competitors, Goals, And <br/> Sales Records - Without<br/> The B.S.
-                </div> 
-                <div className="button-container" >
-                 <Button/>                   
+                <img src ={hero} className="hero-img"/>
+                
+                <div className="custom-box">
+                    <div className="custom-text">
+                    We Crush Your<br/> Competitors, Goals, And <br/> Sales Records - Without<br/> The B.S.
+                    </div> 
+                    <div className="button-container" >
+                    <Button/>                   
+                    </div>
+
                 </div>
+            </div>
+            <div className="webDevelop-section">
+                    <div className="web-img">
+                        <img src={web} alt="Web Development" />
+                    </div>
+                    <div className="column2">
+                     <div className="text-box">
+                        <div className="title">Web & Mobile App Development</div>
+                        <div className="text">
+                            <p>
+                            Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.
+                            </p>
+                        </div>
 
+                     </div>
+
+                    </div>
             </div>
 
+
+        </div> 
         <Footer/>
 
     </div>
