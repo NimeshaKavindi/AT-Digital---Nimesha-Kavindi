@@ -8,7 +8,7 @@ function Footer() {
     <footer className="footer">
         <div className="container-fluid">
             <div className="row align-items-start">
-                <div className="col-6">
+                <div className="col-6" id="first">
                 
                     <div className="logo">
                         <img src ={logo} className="logo"/>
@@ -22,7 +22,7 @@ function Footer() {
                     </div>
                 
                 </div>
-                <div className="col-6">
+                <div className="col-6" id="second">
 
                     <div className="row technologies-service">
                         <div className="col-4">
@@ -49,12 +49,12 @@ function Footer() {
                     
                 </div>
             </div>
-
-            <div className="footer-bottom">
-             <br/><hr className="footer-line" />
-            <div className="text"></div><p className="privacy-text">Privacy | Terms & Conditions</p>
-        </div>
-            
+            <div className="col-12">
+                <div className="footer-bottom">
+                    <br/><hr className="footer-line" />
+                    <div className="text"></div><p className="privacy-text">Privacy | Terms & Conditions</p>
+                </div>
+            </div>
         </div>
   </footer>
   );
