@@ -153,9 +153,10 @@
       align-items: center;
       height: 572.82px;
       top:350px;
-      left: 1px;
+
       gap: 20px;
       position: relative;
+      margin-left:5px;
       
   }
   .digital-section{
@@ -164,9 +165,10 @@
     align-items: center;
     height: 572.82px;
     top: 300px;
-    left: 1px;
+
     gap: 20px;
     position: relative;
+    margin-left:5px;
   }
 
   .web-img img{
@@ -175,7 +177,7 @@
     max-width: 100%;
     height: auto;
     margin-bottom: 20px; 
-    left:5px;
+    margin-left:5px;
     
   }
 
@@ -188,8 +190,6 @@
   }
 
   .column2 {
-
-    left:-1px;
     text-align: center; 
     width: Fill (335px);
     height: Hug (277px);
@@ -198,23 +198,24 @@
 
   .text{
     font-family: Inter;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
-    word-wrap: break-word;
+ word-break: break-all;
 
   }
 
   .title{
     font-family: Poppins;
-    font-size: 27px;
+    font-size: 26px;
     font-weight: 600;
     line-height: 33px;
     letter-spacing: 0.4000000059604645px;
     text-align: center;
     word-wrap: break-word;
+
     
 
   }
