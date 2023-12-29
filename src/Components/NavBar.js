@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/navBar.css'; 
 import logo from "../assests/Picture1.png"
+import menuIcon from "../assests/menu.png"
 
 const NavBar = () => {
   return (
@@ -10,6 +11,7 @@ const NavBar = () => {
 
         <div className="navbar-brand col-md-8 col-lg-8">
             <img src= {logo}  className="logo"/>
+            <img src={menuIcon} className="menu-icon" alt="Menu Icon" />
         </div>
 
 
