@@ -110,14 +110,34 @@
     }
   }
 
-  @media(max-width:375px){
-    .hero-img{
-      width:375px;
+  @media (max-width: 375px) {
+    .hero-img {
+      width: 375px;
       height: 218px;
-      top:75px;
+      top: 75px;
     }
-
-    .custom-box{
-      
+  
+    .custom-box {
+      width: 375px; 
+      height: 294px;
+      min-height: 194px; 
+      top: 260px; 
+      left: 1px; /* Adjusted left position */
+      padding: 24px 0px 32px 0px; /* Adjusted padding */
+      gap: 20px;
+      position: absolute;
     }
+  
+    .custom-text {
+      font-family: Inter;
+      font-size: 28px; 
+      font-weight: 700;
+      line-height: 36px; 
+      letter-spacing: -0.02em;
+      text-align: left;
+      word-wrap: break-word; 
+    }
+  
+    
   }
+  
