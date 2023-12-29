@@ -19,7 +19,7 @@ function Home(){
                 
                 <div className="custom-box">
                     <div className="custom-text">
-                    We Crush Your<br/> Competitors, Goals, And <br/> Sales Records - Without<br/> The B.S.
+                    We Crush Your Competitors, Goals, And <br/> Sales Records - Without<br/> The B.S.
                     </div> 
                     <div className="button-container" >
                     <Button text="GET FREE CONSULTATION" />                   
