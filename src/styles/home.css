@@ -39,7 +39,7 @@
 
 
 .webDevelop-section {
-    display: grid;
+    display: flex;
     grid-template-columns: 414px 650px;
     gap: 108px; 
     align-items: center; 
@@ -212,7 +212,7 @@
   }
 
   
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .hero-img {
         width: 768px;
         height: 448px;
@@ -239,6 +239,52 @@
       text-align: left;
 
     }
+  .webDevelop-section{
+    margin-top:300px;
+    margin-left: 5px;
+    width:768px;
+  }
+    .column2 {
+      margin-top: 20px; /* Add spacing between the elements */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width:393px;
+      height: 239px;
+  }
+
+  .web-img {
+      order: -1; 
+      margin-bottom: 20px; 
+  }
+
+  .text-box {
+      text-align: center; 
+      word-break: break-all;
+  }
+
+  .title{
+  font-family: Poppins;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+  word-wrap: break-word;
+  word-break: break-word;
+  }
+
+  .text{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+  }
   
 
   }

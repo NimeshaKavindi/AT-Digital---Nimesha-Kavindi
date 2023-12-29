@@ -19,7 +19,7 @@ function Home(){
                 
                 <div className="custom-box">
                     <div className="custom-text">
-                    We Crush Your Competitors, Goals, And <br/> Sales Records - Without<br/> The B.S.
+                    We Crush Your<br/> Competitors, Goals, And <br/> Sales Records - Without<br/> The B.S.
                     </div> 
                     <div className="button-container" >
                     <Button text="GET FREE CONSULTATION" />                   
@@ -36,10 +36,10 @@ function Home(){
                         <div className="title">Web & Mobile App Development</div><br/>
                         <div className="text">
                             <p>
-                            Your web and mobile Apps are pieces of the puzzle to grow your <br/>
-                            business. We use frameworks which tailor content and engagement<br/> 
-                            methods to respond to different intents shown by your potential <br/>
-                            customers who interact with your business online.
+                            Your web and mobile Apps are pieces of the puzzle to grow <br/>your 
+                            business. We use frameworks which tailor content and <br/> engagement 
+                            methods to respond to different intents shown<br/> by your potential 
+                            customers who interact with your business <br/>online.
                             </p>
                         </div>
                         <Button text="Learn More" style="btn_viewmore"></Button>
@@ -55,10 +55,7 @@ function Home(){
                         <div className="title">Digital Strategy Consulting</div><br/>
                         <div className="text">
                             <p>
-                            Your web and mobile Apps are pieces of the puzzle to grow your <br/>
-                            business. We use frameworks which tailor content and engagement<br/> 
-                            methods to respond to different intents shown by your potential <br/>
-                            customers who interact with your business online.
+                            Your digital strategy should complement the overall marketing strategy of the company. In online marketing, each component will never work in isolation and every business needs a different mix. We provide a clear concept and strategic overview to find the most efficient model for your business.
                             </p>
                         </div>
                         <Button text="Learn More" style="btn_viewmore"></Button>
