@@ -113,7 +113,7 @@
 
     .footer{
       position: relative;
-      bottom: 0;
+      bottom: 40px;
       left: 0;
       width: 768px;
       height: auto;

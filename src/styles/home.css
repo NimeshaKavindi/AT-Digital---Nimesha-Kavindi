@@ -109,3 +109,15 @@
         
     }
   }
+
+  @media(max-width:375px){
+    .hero-img{
+      width:375px;
+      height: 218px;
+      top:75px;
+    }
+
+    .custom-box{
+      
+    }
+  }

@@ -12,7 +12,7 @@ const NavBar = () => {
             <img src= {logo}  className="logo"/>
         </div>
 
-        {/* Navigation links on the right */}
+
         <div className="collapse navbar-collapse col-md-4 col-lg-4" id="navbarSupportedContent">          
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
