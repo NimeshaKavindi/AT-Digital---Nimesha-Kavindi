@@ -244,6 +244,12 @@
     margin-left: 5px;
     width:768px;
   }
+  .digital-section{
+    margin-top:0px;
+    margin-left: 300px;
+    width:768px;
+    margin-right: 300px;
+  }
     .column2 {
       margin-top: 20px; /* Add spacing between the elements */
       display: flex;
@@ -259,6 +265,8 @@
       margin-bottom: 20px; 
   }
 
+ 
+
   .text-box {
       text-align: center; 
       word-break: break-all;
@@ -273,6 +281,7 @@
   text-align: left;
   word-wrap: break-word;
   word-break: break-word;
+  
   }
 
   .text{
@@ -285,7 +294,18 @@
     
 
   }
-  
+
+  .digi-img {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+  }
+  .digi-img img {
+
+    max-width: 100%; 
+    height: auto; 
+  }
+   
 
   }
 

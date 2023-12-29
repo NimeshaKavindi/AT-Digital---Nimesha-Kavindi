@@ -55,7 +55,7 @@ function Home(){
                         <div className="title">Digital Strategy Consulting</div><br/>
                         <div className="text">
                             <p>
-                            Your digital strategy should complement the overall marketing strategy of the company. In online marketing, each component will never work in isolation and every business needs a different mix. We provide a clear concept and strategic overview to find the most efficient model for your business.
+                            Your digital strategy should complement the overall marketing <br/>strategy of the company. In online marketing, each component<br/> will never work in isolation and every business needs a different <br/>mix. We provide a clear concept and strategic overview to find<br/> the most efficient model for your business.
                             </p>
                         </div>
                         <Button text="Learn More" style="btn_viewmore"></Button>
